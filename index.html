@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Years Countdown</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <script type="text/javascript" src="js/countdown.js"></script>
+</head>
+<body>
+  <div id="fader"></div>
+  <div class="screen-center">
+    <h1>New Years <script>document.write(getNextYear());</script></h1>
+    <p id="countdown"></p>
+    <script>
+      startCountdown("countdown");
+    </script>
+  </div>
+</body>
+</html>
